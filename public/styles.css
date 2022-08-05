@@ -1,0 +1,79 @@
+.body{
+    background-color : whitesmoke;
+}
+
+.navbar{
+ 
+ font-family : 'Inter';
+ background-color : white;
+ font-size : 1.2rem;
+
+}
+
+
+
+.navbar-brand{
+    font-size : 1.8rem;
+}
+
+.nav-button{
+
+    border : solid 1px;
+}
+.nav-button:hover{
+    color : white;
+    background-color : #764AF1;
+}
+
+.nav-link:hover{
+    border-bottom : 2px solid #764AF1;
+}
+
+.hero{
+    padding-top : 15%;
+    height : 80vh;
+}
+
+#hero-intro{
+    color : #764AF1
+}
+
+.hero-heading1{
+    font-size : 5rem;
+    
+}
+
+.hero-heading2{
+    font-size : 5rem;
+    color : #764AF1;
+}
+
+hr{
+    border-top : solid 4px #764AF1;
+    
+}
+.heading{
+
+
+}
+
+.about{
+    margin-top : 8%;
+}
+
+span{
+    color : #764AF1;
+}
+
+.description{
+    font-size : 1.2rem;
+}
+@media only screen and (max-width: 600px) {
+
+    .hero{
+        margin-top : 15%;
+    }
+    .about{
+        margin-top : 5%;
+    }
+}
