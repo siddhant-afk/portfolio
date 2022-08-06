@@ -11,19 +11,17 @@ function Navbar(){
           <div className="collapse navbar-collapse py-3" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item px-4">
-                <a className="nav-link active" aria-current="page" href="#">About Me</a>
+                <a className="nav-link " aria-current="page" href="#About">About Me</a>
+              </li>
+              
+              <li className="nav-item px-4">
+                <a className="nav-link" href="#projects">Projects</a>
               </li>
               <li className="nav-item px-4">
-                <a className="nav-link" href="#">Experience</a>
+                <a href="#contact" className="nav-link">Contact</a>
               </li>
               <li className="nav-item px-4">
-                <a className="nav-link" href="#">Projects</a>
-              </li>
-              <li className="nav-item px-4">
-                <a className="nav-link">Contact</a>
-              </li>
-              <li className="nav-item px-4">
-                <a className="nav-link btn nav-button px-3 ">Resume</a>
+                <a href = "https://drive.google.com/file/d/1GJdzZGqZp7z79El6fHNJrZ8nOAhF1Y0y/view?usp=sharing"className="nav-link btn nav-button px-3 ">Resume</a>
               </li>
             </ul>
           </div>

@@ -1,6 +1,4 @@
-.body{
-    background-color : whitesmoke;
-}
+
 
 .navbar{
  
@@ -61,12 +59,77 @@ hr{
     margin-top : 8%;
 }
 
-span{
+.highlight{
     color : #764AF1;
 }
 
 .description{
     font-size : 1.2rem;
+}
+
+.skill{
+    font-size : 1.0rem;
+    padding : 0.9%;
+
+    background-color : #e6e6ff;
+    border-radius : 10%;
+    margin-right : 0.9%;
+    
+}
+
+.potrait{
+    padding-left : 12%;
+}
+
+.projects{
+    margin-top : 12%;
+}
+
+.card{
+    margin-top : 3%;
+    height:300px;
+    width : 400px;
+    border-radius :0;
+    border : 1px solid #764AF1;
+    background-color : white;
+}
+
+
+.card-icons{
+    margin-top : 10px;
+    height : 30px;
+    width : 30px;
+    color : #764AF1
+}
+
+
+.card-icons:hover{
+    transform : scale(1.1);
+}
+.card-heading{
+    color : #764AF1;
+    margin-top : 15%;
+    font-size : 1.4rem;
+}
+
+.card-text{
+    font-size : 1.1rem;
+}
+
+.card:hover{
+    transform : scale(1.1);
+    
+    transition : 1s ease-out;
+}
+
+.contact{
+
+  margin-top : 10%;
+}
+
+.footer{
+    background-color : whitesmoke;
+    padding : 3%;
 }
 @media only screen and (max-width: 600px) {
 
